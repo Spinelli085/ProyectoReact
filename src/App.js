@@ -1,13 +1,13 @@
-
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer.js"
 import './App.css';
-import CartWidget from './Components/CartWidget/CartWidget';
-import NavBar from './Components/NavBar/NavBar';
+import NavBar from './Components/NavBar/NavBar.js';
+
 
 function App() {
   return (
     <div>
       <NavBar/>
-
+      <ItemListContainer/>
     </div>
   );
 }

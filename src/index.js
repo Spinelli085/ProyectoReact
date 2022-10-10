@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Components/NavBar/NavBar.css";
+import "./Components/CartWidget/CartWidget.css";
+import "./Components/ItemListContainer/ItemListContainer.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
