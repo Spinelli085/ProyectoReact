@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Router from './Screens/Home/Router.js';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./Components/NavBar/NavBar.css";
-import "./Components/CartWidget/CartWidget.css";
-import "./Components/ItemListContainer/ItemListContainer.css";
+import "./Components/Home/NavBar/NavBar.css";
+import "./Components/Home/CartWidget/CartWidget.css";
+import "./Components/Home/ItemListContainer/ItemListContainer.css";
+import "./Components/Home/Cards/Cards.css"
+import Jsonapi from './APIRest/Jsonapi';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>
 );
 
