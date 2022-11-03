@@ -7,8 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Components/Home/NavBar/NavBar.css";
 import "./Components/Home/CartWidget/CartWidget.css";
 import "./Components/Home/ItemListContainer/ItemListContainer.css";
-import "./Components/Home/Cards/Cards.css"
-import Jsonapi from './APIRest/Jsonapi';
+import "./Components/Home/Item/Item.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

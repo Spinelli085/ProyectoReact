@@ -1,0 +1,22 @@
+.muñecoUno {
+    border: solid black 3px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.muneco1 {
+    max-width: 380px;
+    max-height: 230px;
+}
+.muñecos{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3 {
+    font-size: 14px;
+    text-decoration-style: none;
+}
+p {
+    font-size: 10px;
+    text-decoration: none;
+}

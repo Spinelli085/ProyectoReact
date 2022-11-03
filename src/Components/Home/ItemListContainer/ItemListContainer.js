@@ -1,10 +1,10 @@
 
-import Cards from '../Cards/Cards.js';
+import ItemList from '../ItemList/ItemList.js';
 
 const ItemListContainer = () => {
     return (
         <div>
-            <Cards/>
+            <ItemList/>
         </div>
     );
 }
